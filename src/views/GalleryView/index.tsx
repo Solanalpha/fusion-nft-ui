@@ -44,7 +44,7 @@ export const GalleryView: FC = ({}) => {
               <ul className="text-xl">
                 <li>
                   <Link href="/">
-                    <a>BURN-NFT-UI</a>
+                    <a>killer cowboys fusion machine</a>
                   </Link>
                 </li>
               </ul>
@@ -60,7 +60,7 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  Burn your Solana <SolanaLogo /> NFTs and get $SOL back
+                  Burn 2 foxes  NFTs and get 1 Killer cowboys back
                 </h1>
                 
                 <div className="w-full min-w-full">
@@ -93,7 +93,7 @@ export const GalleryView: FC = ({}) => {
                 <div className="mb-auto my-10">
                   {error ? (
                     <div>
-                      <h1>Error Occures</h1>
+                      <h1>Connect your wallet first</h1>
                       {(error as any)?.message}
                     </div>
                   ) : null}

@@ -7,10 +7,10 @@ const Home: NextPage = (props) => {
   return (
     <div  className=" flex flex-col h-screen justify-between">
       <Head>
-        <title>Burn NFT UI</title>
+        <title>KillerCowboys Fusion Machine</title>
         <meta
           name="description"
-          content="Burn your Solana NFT and earn SOL"
+          content="Burn 2 foxes NFT for 1 Killer cowboys"
         />
       </Head>
       <GalleryView />
