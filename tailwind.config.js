@@ -6,7 +6,7 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "media", // or 'false' or 'class'
   theme: {
-    fontFamily: {
+    fontFamily: { 
       // sans: ['Graphik', 'sans-serif'],
       // serif: ['Merriweather', 'serif'],
     },

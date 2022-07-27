@@ -10,7 +10,7 @@ const Home: NextPage = (props) => {
         <title>KillerCowboys Fusion Machine</title>
         <meta
           name="description"
-          content="Burn 2 foxes NFT for 1 Killer cowboys"
+          content="Kill 2 foxes get 1  cowboys"
         />
       </Head>
       <GalleryView />

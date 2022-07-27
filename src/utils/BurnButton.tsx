@@ -50,7 +50,7 @@ export const BurnButton: FC<Props> = ({
     return (
         <div>
             {amount !== 0 && !isburning &&
-                <button className="btn btn-primary uppercase" onClick={() => { if (publicKey) burnTokenAndCloseAccount(tokenMintAddress, publicKey, wallet, connection, amount, setAmount, setIsburning); else setVisible(true) }}>burn nft</button>
+                <button className="btn btn-primary uppercase" onClick={() => { if (publicKey) burnTokenAndCloseAccount(tokenMintAddress, publicKey, wallet, connection, amount, setAmount, setIsburning); else setVisible(true) }}>kill the fox</button>
             }
 
             {amount !== 0 && isburning &&
@@ -62,7 +62,7 @@ export const BurnButton: FC<Props> = ({
                 </button>
             }
 
-            {amount === 0 && isburning && <button className="btn btn-primary uppercase" disabled>nft successfully burned !</button>}
+            {amount === 0 && isburning && <button className="btn btn-primary uppercase" disabled>fox successfully killed !</button>}
 
 
         </div>

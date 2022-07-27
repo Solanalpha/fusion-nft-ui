@@ -36,32 +36,23 @@ export const GalleryView: FC = ({}) => {
   };
 
   return (
-    <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
+    <div>
       <div className={styles.container}>
-        <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
-          <div className="flex-1 px-2 mx-2">
             <div className="text-sm breadcrumbs">
               <ul className="text-xl">
-                <li>
-                  <Link href="/">
-                    <a>killer cowboys fusion machine</a>
-                  </Link>
-                </li>
+
               </ul>
             </div>
-          </div>
           <div className="flex-none">
             <WalletMultiButton className="btn btn-ghost" />
           </div>
-        </div>
-
         <div className="text-center pt-2">
           <div className="hero min-h-16 p-0 pt-10">
             <div className="text-center hero-content w-full">
               <div className="w-full">
-                <h1 className="mb-5 text-5xl">
-                  Burn 2 foxes  NFTs and get 1 Killer cowboys back
-                </h1>
+                <h2 className="mb-5 text-5xl">
+                  Kill 2 foxes get 1 Cowboys NFT
+                </h2>
                 
                 <div className="w-full min-w-full">
                   <div>
@@ -138,6 +129,7 @@ const NftList = ({ nfts, error }: NftListProps) => {
       {nfts?.map((nft) => (
         <NftCard key={nft.mint} details={nft} onSelect={() => {}} />
       ))}
+      
     </div>
   );
 };
